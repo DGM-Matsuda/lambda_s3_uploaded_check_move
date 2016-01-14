@@ -1,0 +1,30 @@
+{
+  "name": "lambda_s3_uploaded_check_move",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-tslint": "^4.3.0",
+    "gulp-typescript": "^2.10.0",
+    "gulp-util": "^3.0.7",
+    "path": "^0.12.7",
+    "tsd": "^0.6.5",
+    "tslint": "^3.2.1",
+    "typescript": "^1.7.5",
+    "uglify-save-license": "^0.4.1",
+    "wrench": "^1.5.8"
+  },
+  "dependencies": {
+    "async": "^1.5.2"
+  }
+}
