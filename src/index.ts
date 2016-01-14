@@ -18,8 +18,8 @@ exports.handler = function(event: any, context: any) {
     async.each<any>(event.Records, startTask,
         function (err: any)
         {
-            console.log('err: ' + err);
-            // context.done(err, data);
+            // console.log('err: ' + err);
+            context.done(err, null);
         }
     );
 };
@@ -34,8 +34,9 @@ function startTask(record: any, done: any) {
         check,
         function(result: any, next: any) {
 
-            console.log('result', result);
-            console.log('next', next);
+            // console.log('result', result);
+            // console.log('next', next);
+            done(null, result);
         }
     ];
 

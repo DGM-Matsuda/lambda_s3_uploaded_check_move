@@ -34,5 +34,5 @@ gulp.task('build', function () {
 });
 
 gulp.task('clean', function () {
-    return $.del([path.join(conf.paths.dist, '/')]);
+    return $.del([path.join(conf.paths.dist, '/'), path.join('./dist.zip')]);
 });
