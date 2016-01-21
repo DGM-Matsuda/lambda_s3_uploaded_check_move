@@ -4,5 +4,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lambda_s3_uploaded_check_move node_modules" level="project" />
   </component>
 </module>
